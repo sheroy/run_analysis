@@ -18,6 +18,17 @@ The script does the following:
 * Generates a tidy data set with the aggregated data. 
 * Writes the tidy data set as a text file on the file system.
 
+###Execution instructions:
+From command line:
+* Ensure the Samsung data is in the working directory. 
+* Rscript run_analysis.R
+
+From RStudio:
+* Open the run_analysis.R file in RStudio. 
+* Set the working directory to the folder containing run_analysis.R
+* Ensure the Samsung data is in the working directory. 
+* Use the RStudio "Run All" command to execute the file. 
 
 ##CodeBook.md
 This file describes the variables in the output data set. 
+
