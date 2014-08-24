@@ -1,8 +1,8 @@
 library(data.table)
 
-#url <- "https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI+HAR+Dataset.zip"
-#download.file(url, destfile="uciDataset.zip", method="curl")
-#unzip("uciDataset.zip")
+url <- "https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI+HAR+Dataset.zip"
+download.file(url, destfile="uciDataset.zip", method="curl")
+unzip("uciDataset.zip")
 
 #read data
 test_x_file <- "/Users/Thoughtworker/coursera/datasciences/getdata/week3/UCI HAR Dataset/test/X_test.txt"
